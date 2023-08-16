@@ -14,4 +14,8 @@ spring:
     config:
       server:
         git:
-          uri: 
+          uri: https://github.com/chiskien/config-repo
+          default-label: master
+          timeout: 5
+          clone-on-start: true
+          force-pull: true
