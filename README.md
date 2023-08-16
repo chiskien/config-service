@@ -1,3 +1,3 @@
 # Configuration Center 
 
-<img src:"04-07.png">
+<img src="04-07.png"/>
