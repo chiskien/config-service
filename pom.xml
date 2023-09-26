@@ -47,6 +47,14 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                 <configuration>
+                    <image>
+                        <name>${imageName}</name>
+                    </image>
+                    <environmentVariables>
+                        <BP_JVM_VERSION>17.*</BP_JVM_VERSION>
+                    </environmentVariables>
+                </configuration>
             </plugin>
         </plugins>
     </build>
